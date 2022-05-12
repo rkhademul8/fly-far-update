@@ -1,0 +1,38 @@
+.banner-Content {
+    padding: 140px 50px;
+}
+
+.contact {
+    background-color: red;
+    padding: 20px;
+}
+
+.cus-col {
+    margin-top: 2px;
+}
+
+.contact-conatent {
+    background-color: #003566;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    padding: 8px;
+
+
+}
+
+.contact-conatent p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.contact-conatent span {
+    background-color: #fff;
+    color: #003566;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-weight: 500;
+
+}

@@ -1,0 +1,66 @@
+.offer-content p {
+    color: #003566;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.offer-content h1 {
+    color: #25262A;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.offering-content h5 {
+    font-size: 24px;
+    color: #25262A;
+    font-weight: 600;
+}
+
+.offering-content p {
+    color: #4C4C50;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.internation-content span {
+    color: #003566;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+
+}
+
+.internation-content h1 {
+    color: #25262A;
+    font-size: 45px;
+}
+
+.internation-content p {
+    color: #4C4C50;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.ceo_parent {
+    padding: 100px 0px;
+}
+
+.ceo {
+    background-color: #fff;
+    padding: 40px 25px;
+
+}
+
+.ceo-content h1 {
+    color: #25262A;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.ceo-content p {
+    color: #4C4C50;
+    font-weight: 500;
+    font-size: 20px;
+}

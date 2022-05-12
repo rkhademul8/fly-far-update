@@ -1,0 +1,41 @@
+.footer-logo p {
+    color: #636363;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.social_img img {
+    width: 39px;
+    height: 39px;
+    margin-right: 5px;
+}
+
+.company-content h5 {
+    color: #202020;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.company-content p {
+    color: #636363;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.company-content img {
+    width: 102px;
+    height: 66px;
+}
+
+.company-content button {
+    margin-left: 10px;
+}
+
+.footer-reserve p {
+    text-align: center;
+    color: #434343;
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -1,3 +1,8 @@
+.nav_cus{
+    margin-left: 90px;
+}
+
+
 .register-btn {
     color: black;
     border: 1px solid black;
@@ -10,3 +15,16 @@
 
    background-image: url();
 }
+
+
+
+
+/* media query */
+
+/* mobile device */
+
+@media only screen and (max-width: 390px) {
+    .nav_cus{
+        margin-left: 0px;
+    }
+  }

@@ -1,19 +1,35 @@
 .banner-Content {
     padding: 140px 50px;
 }
-
-.contact {
-    background-color: red;
-    padding: 20px;
+.content-banner h1{
+    color: #fff;
+    font-size: 55px; 
 }
 
+.content-banner p{
+    color: #FFFFFF; font-size:15px;
+     text-align:justify
+}
+
+
+.contact {
+    background-color: #fff;
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: -98px;
+
+}
+
+
 .cus-col {
-    margin-top: 2px;
+    margin-top: 1px;
+    text-align: center;
 }
 
 .contact-conatent {
     background-color: #003566;
-    width: 50%;
+    width: 70%;
     margin: auto;
     border-radius: 30px;
     padding: 8px;
@@ -26,6 +42,7 @@
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .contact-conatent span {
@@ -36,3 +53,33 @@
     font-weight: 500;
 
 }
+
+.input-field{
+    margin: 25px 0px;
+    text-align: center;
+}
+.input-field input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid black;
+    margin-right: 12px;
+    margin-bottom: 5px;
+    width: 18%;
+}
+
+.flight-btn{
+    margin-top: -25px;
+   
+}
+
+
+
+
+/* media query */
+
+/* mobile device */
+
+@media only screen and (max-width: 390px) {
+   
+  }

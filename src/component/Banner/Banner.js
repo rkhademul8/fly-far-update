@@ -4,7 +4,9 @@ import './Banner.css'
 
 
 const bgbanner = {
-    backgroundImage: `url(${banner})`
+    backgroundImage: `url(${banner})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: "center",
 
 }
 
@@ -20,11 +22,11 @@ const Banner = () => {
 
                 <div class="container  banner-Content">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 content-banner">
 
-                            <h1 style={{ color: "#fff" }}>One Platform, All <br></br>  Travel Solutions.</h1>
+                            <h1 >One Platform, All <br></br>  Travel Solutions.</h1>
 
-                            <p style={{ color: '#ccc' }}>Bangladesh’s most comprehensive B2B portal for You. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on.</p>
+                            <p >Bangladesh’s most comprehensive B2B portal for You. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on.</p>
 
                             <button class="btn btn-outline-success signin-btn" type="submit">Register Now as a Agent </button>
 
@@ -39,7 +41,7 @@ const Banner = () => {
             </div>
 
 
-            <div className='contact'>
+            <div className='contact shadow '>
 
                 {/* <p>One Way  <span>Round trip</span>   Multi-City</p> */}
 
@@ -70,9 +72,11 @@ const Banner = () => {
 
                 </div>
 
-
-
             </div>
+
+            <div className='text-center flight-btn'>
+                <button class="btn btn-outline-success signin-btn rounded-pill" type="submit">Search Flight </button>
+                </div>
 
 
         </section >

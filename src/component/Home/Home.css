@@ -64,3 +64,42 @@
     font-weight: 500;
     font-size: 20px;
 }
+
+
+
+/* media query */
+
+/* mobile device */
+
+@media only screen and (max-width: 390px) {
+    .offer-content h1 {
+        font-size: 30px;
+    }
+
+    .img-size{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .internation-content span {
+        
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        padding: 20px 0px;
+    }
+
+    .internation-content h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .internation-content p {
+        text-align: justify;   
+        margin-bottom: 0;     
+    }
+    .explore-btn{
+        text-align: center;
+        padding: 35px 0px;
+    }
+  }

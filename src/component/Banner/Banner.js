@@ -62,12 +62,29 @@ const Banner = () => {
 
                 <div className='input-field'>
 
-                    <input type="text" />
-                    <input type="text" />
+                <div class="row">
+                    <div class="col">
+                    <label>From</label> <br />
+                        <input type="text"  placeholder='Enter city/ airport name'/>
+                    </div>
+                    <div class="col">
+                    <label>To</label> <br />
+                        <input type="text" placeholder='Enter city/ airport name'/>
+                    </div>
+                    <div class="col">
+                        <label>Departure Date</label><br />
+                        <input type="date" placeholder='Departure Date'/>
+                    </div>
+                    <div class="col">
+                         <label>Returning Date</label> <br />
+                        <input type="date" placeholder='Departure Date' />
+                    </div>
+                    <div class="col">
+                        <label>Passenger & Class</label> 
+                        <input type="text" placeholder='Economy Class' />
+                    </div>
+                </div>
                     
-                    <input type="date" />
-                    <input type="date" />
-                    <input type="text" />
 
 
                 </div>

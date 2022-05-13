@@ -1,0 +1,23 @@
+.slick-prev:before {
+    content: '←';
+    color: red !important;
+}
+
+.slick-next:before {
+    content: '→';
+    color: red !important;
+}
+
+.carousel{
+    margin: 100px 0px;
+}
+
+.carousel img{
+    width: 250px;
+    height: 100px !important;
+}
+
+.slick-arrow
+{
+    color: red;
+}

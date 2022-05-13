@@ -4,7 +4,6 @@ import Navbar from '../Navbar/Navbar';
 import './Home.css'
 
 
-import banner2 from '../../image/banner2.png'
 import offer1 from '../../image/offer1.png'
 import computer_img from '../../image/Group 1737.png'
 import agent from '../../image/Group 1752.png'
@@ -14,6 +13,7 @@ import visa from '../../image/visa.png'
 import travel from '../../image/travel.png'
 import covid from '../../image/covid.png'
 import Footer from '../Footer/Footer';
+import Carousel from '../Carousel/Carousel';
 
 
 
@@ -32,17 +32,10 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
 
+            <Carousel></Carousel>
 
 
 
-            {/* airline partnet start */}
-
-            <section className='container mt-5 mb-5'>
-
-                <img src={banner2} className="img-fluid" alt="..." />
-
-            </section>
-            {/* airline partnet end */}
 
 
 

@@ -56,9 +56,10 @@ const Home = () => {
                     <h1 className='mb-5'>What We Are Offering?</h1>
                 </div>
 
+                {/* row-cols-1  row-cols-md-4 g-4 */}
 
-                <div class="row  row-cols-1  row-cols-md-4 g-4">
-                    <div class=" ">
+                <div class="row  ">
+                    <div class=" col-12 col-md-6 col-lg-3">
                         <div class="card border-0">
                             <img  src={visa} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
@@ -67,7 +68,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div class=" ">
+                    <div class=" col-12 col-md-6 col-lg-3">
                         <div class="card border-0">
                             <img src={offer1} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
@@ -76,7 +77,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="card border-0">
                             <img src={travel} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
@@ -85,7 +86,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="card border-0">
                             <img src={covid} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
@@ -115,13 +116,16 @@ const Home = () => {
                         <span>Our Special Service</span>
                         <h1>Buy Air Ticket With <b>Lowest Price.</b> </h1>
                         <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-
-                        <button class="btn btn-outline-success signin-btn" type="submit">Get My Ticket Now</button>
-
+                        
+                        <div className='service-btn'> 
+                            <button class="btn btn-outline-success signin-btn" type="submit">Get My Ticket Now</button>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6">
 
-                        <img src={computer_img} className="img-fluid" alt="..." />
+                       
+                           <img src={computer_img} className="img-fluid" alt="..." />
+                        
 
                     </div>
                 </div>

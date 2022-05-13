@@ -102,4 +102,18 @@
         text-align: center;
         padding: 35px 0px;
     }
+    .service-btn{
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .ceo-content h1 {
+        font-size: 28px;
+        text-align: center;
+        padding: 28px 0px;
+        
+    }
+    .ceo-content p {
+        text-align: center;
+    }
   }

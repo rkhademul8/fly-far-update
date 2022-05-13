@@ -11,10 +11,11 @@ import payment from '../../image/payment.png'
 
 const Footer = () => {
     return (
-        <div className='my-5'>
-            <div class="container">
+        <div className='footer-parent'>
+           <section className='footer-body'>
+           <div class="container">
                 <div class="row ">
-                    <div class="col footer-logo">
+                    <div class="col-12 col-md-6 col-lg-3 footer-logo">
 
                         <img src={logo} />
 
@@ -28,22 +29,25 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div class="col company-content">
+
+                    <div class="col-12 col-md-6 col-lg-3 company-content">
                         <h5>Company</h5>
                         <p>Payment Mathod</p>
                         <p>Terms and condition</p>
                         <p>Privacy policy</p>
 
                     </div>
-                    <div class="col company-content">
+
+                    <div class="col-12 col-md-6 col-lg-3 company-content">
                         <h5>Authorised by</h5>
                         <img src={iata} />
                     </div>
-                    <div class="col company-content">
+
+                    <div class="col-12 col-md-6 col-lg-3 company-content">
                         <h5>Send us massage via Email</h5>
 
                         <input></input>
-                        <button class="btn btn-outline-success signin-btn" type="submit">SUBSCRIBE</button>
+                        <button class="btn btn-outline-success signin-btn mt-3" type="submit">SUBSCRIBE</button>
                     </div>
                 </div>
             </div>
@@ -51,17 +55,18 @@ const Footer = () => {
 
 
             {/* payment bannner */}
-            <section className='container mt-5 mb-5'>
+            <div className='container mt-5 mb-5'>
 
                 <img src={payment} className="img-fluid" alt="..." />
 
-            </section>
+            </div>
 
             {/* payment bannner end */}
 
             <div className=' footer-reserve'>
                 <p>@All Right Reserved By Fly Far International & Developed By FLy Far Tech</p>
             </div>
+           </section>
         </div >
     );
 };

@@ -1,3 +1,12 @@
+.footer-parent{
+    background-color: #E5F0FF;
+    margin-top: 100px;
+}
+
+.footer-body{
+    padding: 70px 0px;
+}
+
 .footer-logo p {
     color: #636363;
     font-size: 14px;
@@ -12,6 +21,9 @@
     margin-right: 5px;
 }
 
+.company-content{
+    padding: 0px 80px;
+}
 .company-content h5 {
     color: #202020;
     font-size: 18px;
@@ -38,4 +50,5 @@
     color: #434343;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 0px;
 }

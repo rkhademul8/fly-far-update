@@ -43,7 +43,7 @@ const Home = () => {
 
             {/* offering part start */}
 
-            <section className='container'>
+            <section className='container pe-0'>
                 <div className='text-center offer-content'>
                     <p>Our Service</p>
                     <h1 className='mb-5'>What We Are Offering?</h1>
@@ -52,16 +52,16 @@ const Home = () => {
                 {/* row-cols-1  row-cols-md-4 g-4 */}
 
                 <div class="row  ">
-                    <div class=" col-12 col-md-6 col-lg-3">
+                    <div class=" col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card border-0">
-                            <img  src={visa} class="card-img-top img-size" alt="..." />
+                            <img src={visa} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
                                 <h5 class="card-title">Visa Processing</h5>
                                 <p class="card-text">When your visa is approved, the interviewing officer will skeep your passport and documents for a.</p>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-3">
+                    <div class=" col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card border-0">
                             <img src={offer1} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
@@ -70,7 +70,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card border-0">
                             <img src={travel} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
@@ -79,7 +79,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card border-0">
                             <img src={covid} class="card-img-top img-size" alt="..." />
                             <div class="card-body text-center offering-content">
@@ -109,16 +109,16 @@ const Home = () => {
                         <span>Our Special Service</span>
                         <h1>Buy Air Ticket With <b>Lowest Price.</b> </h1>
                         <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-                        
-                        <div className='service-btn'> 
+
+                        <div className='service-btn'>
                             <button class="btn btn-outline-success signin-btn" type="submit">Get My Ticket Now</button>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
 
-                       
-                           <img src={computer_img} className="img-fluid" alt="..." />
-                        
+
+                        <img src={computer_img} className="img-fluid" alt="..." />
+
 
                     </div>
                 </div>
@@ -137,7 +137,44 @@ const Home = () => {
 
                     <div class="col-12 col-md-6 mb-5">
 
-                        <img src={agent} className="img-fluid" alt="..." />
+                        {/* <img src={agent} className="img-fluid" alt="..." /> */}
+                        <div className='row'>
+
+                            <div class="col-5  col-lg-5 agent_parent">
+                                <div className='agent'>
+                                    <h3>120+ Agent</h3>
+                                    <span className='cus_P'>Permanent</span>
+                                </div>
+                            </div>
+                            <div class="col-7  col-lg-6">
+                                <div className='int_customers'>
+                                    <h3> 10,250+</h3>
+                                    <span className='cus_P'>Customers</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='row row-round'>
+
+                            <div class="col-7  col-lg-6">
+                                <div className='int_customers direct_contact'>
+                                    <h3> 10,250+</h3>
+                                    <span className='cus_P'>Customers</span>
+                                </div>
+                            </div>
+
+                            <div class="col-5 col-lg-5">
+                                <div className='agent agent_last'>
+                                    <h3>120+ Agent</h3>
+                                    <span className='cus_P'>Permanent</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
 
                     </div>
 
@@ -146,7 +183,7 @@ const Home = () => {
                         <h1>Why Fly Far International?</h1>
                         <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 
-                       <div className='explore-btn'> <button class="btn btn-outline-success signin-btn" type="submit">Explore More</button></div>
+                        <div className='explore-btn'> <button class="btn btn-outline-success signin-btn" type="submit">Explore More</button></div>
                     </div>
 
                 </div>
@@ -165,7 +202,7 @@ const Home = () => {
                     <div className='ceo'>
                         <div class="row d-flex align-items-center  ">
                             <div class=" col-12 col-md-3">
-                                <div className='text-center'><img src={ceoImg} /></div>
+                                <div className='text-center'><img class="img-fluid" src={ceoImg} /></div>
                             </div>
                             <div class=" col-12 col-md-9 ceo-content">
                                 <h1>From The Desk Of CEO!</h1>

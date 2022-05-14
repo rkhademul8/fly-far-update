@@ -66,23 +66,149 @@
 }
 
 
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.agent_parent {
+    margin-left: 22px;
+}
+
+
+.agent {
+    background-color: #BEE2FB;
+    border-radius: 30px;
+    text-align: center;
+    color: #5591BB;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 56px 32px;
+    padding: 41px 0px;
+}
+
+
+.agent h3 {
+    font-size: 26px;
+}
+
+.agent span {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.int_customers {
+    background-color: #E6F9F1;
+    padding: 87px;
+    margin: 0px;
+    border-radius: 30px;
+    text-align: center;
+    color: #4CD4AB;
+
+    font-weight: 700;
+}
+
+.int_customers h3 {
+    font-size: 48px;
+
+}
+
+.int_customers span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.direct_contact {
+    background-color: #F2F2FF;
+    color: #878CFF;
+}
+
+
+.agent_last {
+    background-color: #F4F8FE;
+    color: #81B3FF;
+}
+
 
 /* media query */
 
 /* mobile device */
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 520px) {
+
     .offer-content h1 {
-        font-size: 30px;
+        font-size: 22px;
     }
 
-    .img-size{
-        width: 300px;
+    .img-size {
+        width: 275px;
         margin: 0 auto;
     }
 
+    .offering-content h5 {
+        font-size: 20px;
+    }
+
+    .offering-content p {
+        font-size: 15px;
+    }
+
+
+    .agent_parent {
+        margin-left: 0;
+    }
+
+    .agent {
+        background-color: #BEE2FB;
+        padding: 16px;
+        /* margin: 11px; */
+        border-radius: 30px;
+        text-align: center;
+        color: #5591BB;
+        font-weight: 700;
+        margin: 33px 0px;
+    }
+
+    .agent h3 {
+        font-size: 20px;
+    }
+
+    .agent span {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .int_customers {
+        background-color: #E6F9F1;
+        padding: 53px;
+        margin: 0px;
+        border-radius: 30px;
+        text-align: center;
+        color: #4CD4AB;
+        font-weight: 700;
+    }
+
+    .int_customers h3 {
+        font-size: 20px;
+
+    }
+
+    .int_customers span {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
     .internation-content span {
-        
+
         font-size: 20px;
         text-align: center;
         display: block;
@@ -90,30 +216,88 @@
     }
 
     .internation-content h1 {
-        font-size: 30px;
+        font-size: 22px;
         text-align: center;
     }
 
     .internation-content p {
-        text-align: justify;   
-        margin-bottom: 0;     
+        text-align: justify;
+        margin-bottom: 0;
+        padding: 20px 3px;
+        font-size: 15px;
     }
-    .explore-btn{
+
+    .explore-btn {
         text-align: center;
         padding: 35px 0px;
     }
-    .service-btn{
+
+    .service-btn {
         text-align: center;
         padding-top: 35px;
     }
 
     .ceo-content h1 {
-        font-size: 28px;
+        font-size: 22px;
         text-align: center;
         padding: 28px 0px;
-        
+
     }
+
     .ceo-content p {
-        text-align: center;
+        text-align: justify;
+        font-size: 15px;
     }
-  }
+
+    .row-round {
+        margin-top: 20px;
+    }
+}
+
+
+
+/* tab device media query */
+
+
+
+@media only screen and (min-width: 519px) and (max-width: 844px) {
+    .offer-content h1 {
+        font-size: 30px;
+    }
+
+    .internation-content h1 {
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+
+    .agent_parent {
+        margin-left: 0px;
+    }
+
+    .row-round {
+        margin-top: 20px;
+    }
+
+    .agent {
+        font-size: 20px;
+        margin: 41px 17px;
+        padding: 31px 0px;
+    }
+
+    .int_customers {
+        background-color: #E6F9F1;
+        padding: 53px;
+        margin: 0px;
+        border-radius: 30px;
+        text-align: center;
+        color: #4CD4AB;
+
+        font-weight: 700;
+    }
+
+    .explore-btn button {
+        margin-bottom: 50px;
+    }
+
+
+}

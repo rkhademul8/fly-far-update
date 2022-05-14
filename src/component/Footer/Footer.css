@@ -1,9 +1,9 @@
-.footer-parent{
+.footer-parent {
     background-color: #E5F0FF;
     margin-top: 100px;
 }
 
-.footer-body{
+.footer-body {
     padding: 70px 0px;
 }
 
@@ -21,9 +21,10 @@
     margin-right: 5px;
 }
 
-.company-content{
+.company-content {
     padding: 0px 80px;
 }
+
 .company-content h5 {
     color: #202020;
     font-size: 18px;
@@ -45,10 +46,47 @@
     margin-left: 10px;
 }
 
+.message {
+    font-size: 15px;
+}
+
 .footer-reserve p {
     text-align: center;
     color: #434343;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0px;
+}
+
+
+/* media query */
+
+/* mobile device */
+
+@media only screen and (max-width: 520px) {
+
+    .company-content {
+        padding: 25px 21px;
+        padding-bottom: 10px;
+    }
+}
+
+/* tab device media query */
+@media only screen and (min-width: 519px) and (max-width: 844px) {
+    .ceo-content h1 {
+        font-size: 25px;
+        padding: 17px 0px;
+        font-weight: 600;
+
+    }
+
+    .ceo-content p {
+        color: #4C4C50;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .company-content {
+        padding: 42px 10px;
+    }
 }

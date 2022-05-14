@@ -13,53 +13,92 @@ import c7 from '../../image/c7.png'
 
 const Carousel = () => {
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000
-      };
+  const settings = {
+
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    // autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
 
 
-    return (
-        <div className='carousel'>
-    <div className='container'>
-        
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  };
+
+
+  return (
+    <div className='carousel'>
+      <div className='container'>
+        <div className='carousel-header'><span>Our Most Popular Airlinr Partners</span></div>
         <Slider {...settings}>
 
           <div >
-          <img src={c1} class="img-thumbnail" alt="..." />
+            <img src={c1} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-          <img src={c2} class="img-thumbnail" alt="..." />
+            <img src={c2} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-          <img src={c3} class="img-thumbnail" alt="..." />
+            <img src={c3} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-          <img src={c4} class="img-thumbnail" alt="..." />
+            <img src={c4} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-          <img src={c5} class="img-thumbnail" alt="..." />
+            <img src={c5} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-          <img src={c6} class="img-thumbnail" alt="..." />
+            <img src={c6} class="img-thumbnail" alt="..." />
           </div>
-          
+
 
 
 
         </Slider>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Carousel;

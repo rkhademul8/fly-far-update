@@ -1,14 +1,16 @@
 .banner-Content {
     padding: 189px 50px;
 }
-.content-banner h1{
+
+.content-banner h1 {
     color: #fff;
-    font-size: 55px; 
+    font-size: 55px;
 }
 
-.content-banner p{
-    color: #FFFFFF; font-size:15px;
-     text-align:justify
+.content-banner p {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: justify
 }
 
 
@@ -55,12 +57,12 @@
 
 }
 
-.input-field{
+.input-field {
     margin: 25px 0px;
     text-align: center;
 }
 
-.input-field label{
+.input-field label {
     color: #003566;
     font-size: 17px;
     font-weight: 600;
@@ -68,7 +70,7 @@
     text-align: left;
 }
 
-.input-field input{
+.input-field input {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -82,9 +84,15 @@
 }
 
 
-.flight-btn{
+.flight-btn {
     margin-top: -25px;
-   
+
+}
+
+
+.btn-outline-success:disabled {
+    color: white;
+    background: #003566;
 }
 
 
@@ -94,16 +102,75 @@
 
 /* mobile device */
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 520px) {
+
+
+    .banner-Content {
+        padding: 0px 10px;
+    }
+
     .content-banner h1 {
-        color: #fff;
-        font-size: 34px;
+        font-size: 25px;
+        text-align: center;
+        padding: 17px 0px;
+    }
+
+    .banner-btn {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+
+
+
+    .banner-btn {
+        width: 100%;
+    }
+
+    .contact-conatent span {
+        background-color: #fff;
+        color: #003566;
+        padding: 5px 8px;
+        border-radius: 20px;
+        font-weight: 500;
     }
 
     .contact {
-        display: none;
+        background-color: #fff;
+        padding: 20px;
+        margin: 40px 0px;
+        width: 100%;
     }
+
     .flight-btn {
         display: none;
     }
-  }
+}
+
+
+/* tab device media query */
+@media only screen and (min-width: 519px) and (max-width: 844px) {
+
+
+    .banner-Content {
+        padding: 30px 25px;
+    }
+
+    .content-banner h1 {
+        font-size: 30px;
+    }
+
+    .contact {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .contact-conatent {
+        width: 100%;
+
+    }
+
+
+
+}

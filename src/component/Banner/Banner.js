@@ -5,8 +5,11 @@ import './Banner.css'
 
 const bgbanner = {
     backgroundImage: `url(${banner})`,
+    // backgroundRepeat: 'no-repeat',
+    // backgroundPosition: "center",
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: "center",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
 
 }
 
@@ -15,7 +18,7 @@ const bgbanner = {
 const Banner = () => {
 
     return (
-        <section className='container'>
+        <section className='container pe-0'>
 
             <div style={bgbanner}>
 
@@ -28,7 +31,7 @@ const Banner = () => {
 
                             <p >Bangladesh’s most comprehensive B2B portal for You. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on.</p>
 
-                            <button class="btn btn-outline-success signin-btn" type="submit">Register Now as a Agent </button>
+                            <div className='banner-btn'><button class="btn btn-outline-success signin-btn" type="submit">Register Now as a Agent </button></div>
 
                         </div>
                         <div class="col-lg-7"></div>
@@ -47,13 +50,13 @@ const Banner = () => {
 
 
                 <div class="row contact-conatent ">
-                    <div class="col">
+                    <div class="col p-0">
                         <p>One Way </p>
                     </div>
-                    <div class="col cus-col">
+                    <div class="col cus-col p-0">
                         <span className='round' style={{ color: '#003566;' }}>Round trip</span>
                     </div>
-                    <div class="col">
+                    <div class="col p-0">
                         <p>One Way </p>
                     </div>
 
@@ -62,29 +65,29 @@ const Banner = () => {
 
                 <div className='input-field'>
 
-                <div class="row">
-                    <div class="col">
-                    <label>From</label> <br />
-                        <input type="text"  placeholder='Enter city/ airport name'/>
+                    <div class="row d-flex justify-content-center input-field-left">
+                        <div class="  col-12 col-md-6 col-lg-2 ">
+                            <label>From</label> <br />
+                            <input disabled type="text" placeholder='Enter city/ airport name' />
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2 ">
+                            <label>To</label> <br />
+                            <input disabled type="text" placeholder='Enter city/ airport name' />
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2 ">
+                            <label>Departure Date</label><br />
+                            <input disabled type="date" placeholder='Departure Date' />
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2 ">
+                            <label>Returning Date</label> <br />
+                            <input disabled type="date" placeholder='Departure Date' />
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2 ">
+                            <label>Passenger & Class</label>
+                            <input disabled type="text" placeholder='Economy Class' />
+                        </div>
                     </div>
-                    <div class="col">
-                    <label>To</label> <br />
-                        <input type="text" placeholder='Enter city/ airport name'/>
-                    </div>
-                    <div class="col">
-                        <label>Departure Date</label><br />
-                        <input type="date" placeholder='Departure Date'/>
-                    </div>
-                    <div class="col">
-                         <label>Returning Date</label> <br />
-                        <input type="date" placeholder='Departure Date' />
-                    </div>
-                    <div class="col">
-                        <label>Passenger & Class</label> 
-                        <input type="text" placeholder='Economy Class' />
-                    </div>
-                </div>
-                    
+
 
 
                 </div>
@@ -92,8 +95,8 @@ const Banner = () => {
             </div>
 
             <div className='text-center flight-btn'>
-                <button class="btn btn-outline-success signin-btn rounded-pill" type="submit">Search Flight </button>
-                </div>
+                <button disabled class=" btn btn-outline-success signin-btn rounded-pill" type="submit">Search Flight </button>
+            </div>
 
 
         </section >

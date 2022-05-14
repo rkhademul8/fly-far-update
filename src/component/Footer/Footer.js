@@ -12,61 +12,63 @@ import payment from '../../image/payment.png'
 const Footer = () => {
     return (
         <div className='footer-parent'>
-           <section className='footer-body'>
-           <div class="container">
-                <div class="row ">
-                    <div class="col-12 col-md-6 col-lg-3 footer-logo">
+            <section className='footer-body'>
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 col-md-6 col-lg-3 footer-logo">
 
-                        <img src={logo} />
+                            <div className='footer-logo'><img src={logo} /></div>
 
-                        <p className='py-3'>
-                            Cheap International Flights. Book Tickets from 600+ Airlines on CheapOair®. Airlines, Dates and Prices in One Go. Search, Compare & Book Now on CheapOair®. Price Match Promise.
-                        </p>
-                        <div className='social_img'>
-                            <img src={fb} />
-                            <img src={youtube} />
-                            <img src={gmail} />
+
+
+                            <p className='py-3'>
+                                Cheap International Flights. Book Tickets from 600+ Airlines on CheapOair®. Airlines, Dates and Prices in One Go. Search, Compare & Book Now on CheapOair®. Price Match Promise.
+                            </p>
+                            <div className='social_img'>
+                                <img src={fb} />
+                                <img src={youtube} />
+                                <img src={gmail} />
+                            </div>
+
                         </div>
 
-                    </div>
+                        <div class="col-6 col-md-6 col-lg-3 company-content ">
+                            <h5>Company</h5>
+                            <p>Payment Mathod</p>
+                            <p>Terms and condition</p>
+                            <p>Privacy policy</p>
 
-                    <div class="col-12 col-md-6 col-lg-3 company-content">
-                        <h5>Company</h5>
-                        <p>Payment Mathod</p>
-                        <p>Terms and condition</p>
-                        <p>Privacy policy</p>
+                        </div>
 
-                    </div>
+                        <div class="col-6 col-md-6 col-lg-3 company-content">
+                            <h5>Authorised by</h5>
+                            <img src={iata} />
+                        </div>
 
-                    <div class="col-12 col-md-6 col-lg-3 company-content">
-                        <h5>Authorised by</h5>
-                        <img src={iata} />
-                    </div>
+                        <div class="col-6 col-md-6 col-lg-3 ">
+                            <h5 className='message'>Send us massage via Email</h5>
 
-                    <div class="col-12 col-md-6 col-lg-3 company-content">
-                        <h5>Send us massage via Email</h5>
-
-                        <input></input>
-                        <button class="btn btn-outline-success signin-btn mt-3" type="submit">SUBSCRIBE</button>
+                            <input class="form-control"></input> <br></br>
+                            <button class="btn btn-outline-success signin-btn mt-3" type="submit">SUBSCRIBE</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
 
-            {/* payment bannner */}
-            <div className='container mt-5 mb-5'>
+                {/* payment bannner */}
+                <div className='container mt-5 mb-5'>
 
-                <img src={payment} className="img-fluid" alt="..." />
+                    <img src={payment} className="img-fluid" alt="..." />
 
-            </div>
+                </div>
 
-            {/* payment bannner end */}
+                {/* payment bannner end */}
 
-            <div className=' footer-reserve'>
-                <p>@All Right Reserved By Fly Far International & Developed By FLy Far Tech</p>
-            </div>
-           </section>
+                <div className=' footer-reserve'>
+                    <p>@All Right Reserved By Fly Far International & Developed By FLy Far Tech</p>
+                </div>
+            </section>
         </div >
     );
 };

@@ -89,6 +89,15 @@
 
 }
 
+.search-btn{
+    text-decoration: none;
+    background: #003566;
+    color: #fff;
+    padding: 13px;
+    border-radius: 23px;
+    pointer-events: none;
+}
+
 
 .btn-outline-success:disabled {
     color: white;

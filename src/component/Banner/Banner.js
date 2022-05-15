@@ -95,7 +95,10 @@ const Banner = () => {
             </div>
 
             <div className='text-center flight-btn'>
-                <button disabled class=" btn btn-outline-success signin-btn rounded-pill" type="submit">Search Flight </button>
+
+                {/* <button disabled class=" btn btn-outline-success signin-btn rounded-pill" type="submit">Search Flight </button> */}
+                <a disabled className='search-btn'>Search Flight</a>
+                
             </div>
 
 

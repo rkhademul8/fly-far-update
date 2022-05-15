@@ -31,15 +31,7 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
-
             <Carousel></Carousel>
-
-
-
-
-
-
-
 
             {/* offering part start */}
 
@@ -135,8 +127,7 @@ const Home = () => {
 
                 <div class="row d-flex  align-items-center">
 
-                    <div class="col-12 col-md-6 mb-5">
-
+                    <div class="col-12 col-md-6  mb-5">
 
                         <div className='row'>
                             <div class="col-5  col-lg-5 agent_parent">
@@ -161,13 +152,16 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div class="col-5 col-lg-5">
+                            <div class="col-5 col-lg-5 agent_parent">
                                 <div className='agent agent_last'>
                                     <h3>120+ Agent</h3>
                                     <span className='cus_P'>Permanent</span>
                                 </div>
                             </div>
                         </div>
+
+
+                        
 
 
 

@@ -49,7 +49,7 @@ const Footer = () => {
                             <h5 className='message'>Send us massage via Email</h5>
 
                             <input class="form-control"></input> <br></br>
-                            <button class="btn btn-outline-success signin-btn mt-3" type="submit">SUBSCRIBE</button>
+                            <button class="btn btn-outline-success signin-btn " type="submit">SUBSCRIBE</button>
                         </div>
                     </div>
                 </div>

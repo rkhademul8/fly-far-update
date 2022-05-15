@@ -1,3 +1,5 @@
+
+
 .offer-content p {
     color: #003566;
     font-weight: 700;
@@ -61,8 +63,8 @@
 
 .ceo-content p {
     color: #4C4C50;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 
@@ -92,8 +94,8 @@
     color: #5591BB;
     font-size: 28px;
     font-weight: 700;
-    margin: 56px 32px;
-    padding: 41px 0px;
+    margin: 36px 32px;
+    padding: 37px 0px;
 }
 
 
@@ -108,7 +110,7 @@
 
 .int_customers {
     background-color: #E6F9F1;
-    padding: 87px;
+    padding: 65px;
     margin: 0px;
     border-radius: 30px;
     text-align: center;
@@ -142,6 +144,16 @@
 /* media query */
 
 /* mobile device */
+
+@media only screen and (max-width: 320px) {
+    .agent_parent{
+        padding: 0;
+    }
+    .agent {
+        margin: 23px 5px !important;
+        padding: 20px 0px !important;
+    }
+}
 
 @media only screen and (max-width: 520px) {
 
@@ -300,5 +312,57 @@
 
     .explore-btn button {
         margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+.agent {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 35px 5px;
+    padding: 36px 0px;
+}
+
+.int_customers {
+    margin: 0px;
+}
+.int_customers h3 {
+    font-size: 25px;
+}
+.int_customers span {
+    font-size: 20px;
+}
+.agent h3 {
+    font-size: 25px;
+}
+.agent span {
+    font-size: 20px;
+}
+}
+
+
+@media only screen and (max-width:768px) {
+    .agent {
+        margin: 30px 5px;
+        padding: 8px 0px;
+    }
+
+    .agent h3 {
+        font-size: 15px;
+    }
+    .agent span {
+        font-size: 14px;
+    }
+
+    .int_customers {
+     
+        padding: 39px;
+        margin: 0px;
+    }
+    .int_customers h3 {
+        font-size: 20px;
+    }
+    .int_customers span {
+        font-size: 15px;
     }
 }

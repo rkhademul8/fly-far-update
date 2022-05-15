@@ -82,7 +82,7 @@ const Banner = () => {
                             <label>Returning Date</label> <br />
                             <input disabled type="date" placeholder='Departure Date' />
                         </div>
-                        <div class="col-12 col-md-6 col-lg-2 ">
+                        <div class="col-12 col-md-6 col-lg-2 p-0 passenger-input">
                             <label>Passenger & Class</label>
                             <input disabled type="text" placeholder='Economy Class' />
                         </div>

@@ -1,5 +1,5 @@
 .nav_cus{
-    margin-left: 90px;
+    margin-left: 80px;
 }
 
 
@@ -23,7 +23,8 @@
 
 /* mobile device */
 
-@media only screen and (max-width: 390px) {
+
+@media only screen and (max-width: 991px) {
     .nav_cus{
         margin-left: 0px;
     }

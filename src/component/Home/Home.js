@@ -137,9 +137,8 @@ const Home = () => {
 
                     <div class="col-12 col-md-6 mb-5">
 
-                        {/* <img src={agent} className="img-fluid" alt="..." /> */}
-                        <div className='row'>
 
+                        <div className='row'>
                             <div class="col-5  col-lg-5 agent_parent">
                                 <div className='agent'>
                                     <h3>120+ Agent</h3>
@@ -153,8 +152,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-
-
                         <div className='row row-round'>
 
                             <div class="col-7  col-lg-6">
@@ -170,7 +167,6 @@ const Home = () => {
                                     <span className='cus_P'>Permanent</span>
                                 </div>
                             </div>
-
                         </div>
 
 

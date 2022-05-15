@@ -18,7 +18,7 @@ const Carousel = () => {
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
       {
@@ -33,13 +33,45 @@ const Carousel = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       },
 
       {
         breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 375,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1
@@ -54,6 +86,7 @@ const Carousel = () => {
         }
       },
 
+   
 
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
@@ -69,27 +102,27 @@ const Carousel = () => {
         <Slider {...settings}>
 
           <div >
-            <img src={c1} class="img-thumbnail" alt="..." />
+            <img className='border-0' src={c1} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-            <img src={c2} class="img-thumbnail" alt="..." />
+            <img className='border-0' src={c2} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-            <img src={c3} class="img-thumbnail" alt="..." />
+            <img className='border-0' src={c3} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-            <img src={c4} class="img-thumbnail" alt="..." />
+            <img className='border-0' src={c4} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-            <img src={c5} class="img-thumbnail" alt="..." />
+            <img className='border-0' src={c5} class="img-thumbnail" alt="..." />
           </div>
 
           <div >
-            <img src={c6} class="img-thumbnail" alt="..." />
+            <img className='border-0' src={c6} class="img-thumbnail" alt="..." />
           </div>
 
 

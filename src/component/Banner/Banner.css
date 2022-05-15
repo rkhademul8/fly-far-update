@@ -98,11 +98,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* media query */
 
-/* mobile device */
+
+
+
+
 
 @media only screen and (max-width: 520px) {
+
+    .contact-conatent {
+        width: 100%;
+    }
+
+    .contact-conatent p {
+        font-size: 15px;
+    }
+
+    .cus-col {
+        margin-top: -7px;
+    }
+
+    .contact-conatent span {
+        padding: 5px 6px;
+        font-size: 14px;
+    }
 
 
     .banner-Content {
@@ -120,6 +149,18 @@
         margin-bottom: 20px;
 
     }
+    
+    .signin-btn {
+        background: #003566;
+        color: #fff;
+        border: 1px solid #003566;
+        background-image: url();
+        font-size: 15px;
+    }
+
+    .passenger-input{
+        padding: 14px !important;
+    }
 
 
 
@@ -128,13 +169,13 @@
         width: 100%;
     }
 
-    .contact-conatent span {
+    /* .contact-conatent span {
         background-color: #fff;
         color: #003566;
         padding: 5px 8px;
         border-radius: 20px;
         font-weight: 500;
-    }
+    } */
 
     .contact {
         background-color: #fff;
@@ -144,23 +185,23 @@
     }
 
     .flight-btn {
-        display: none;
+        margin-top: -66px;
     }
 }
 
 
+
+
 /* tab device media query */
-@media only screen and (min-width: 519px) and (max-width: 844px) {
 
 
-    .banner-Content {
+@media only screen and (min-width: 521px) and (max-width: 845px) {
+   .banner-Content {
         padding: 30px 25px;
     }
-
     .content-banner h1 {
         font-size: 30px;
     }
-
     .contact {
         width: 100%;
         margin-top: 100px;
@@ -169,8 +210,42 @@
     .contact-conatent {
         width: 100%;
 
+    }   
+
+     .contact-conatent p {
+        font-size: 20px;
     }
 
+    .cus-col {
+        margin-top: -1px;
+    }
+
+    .contact-conatent span {
+        padding: 5px 22px;
+        font-size: 20px;
+    }
+
+    .passenger-input{
+        padding: 14px !important;
+    }
+}
 
 
+@media only screen and (min-width: 846px) and (max-width: 1199px) {
+    
+    .content-banner h1 {
+      
+        font-size: 40px;
+       
+    }
+    
+    
+    .contact-conatent {
+     
+        width: 100%;  
+    }
+
+    .passenger-input{
+        padding: 14px !important;
+    }
 }

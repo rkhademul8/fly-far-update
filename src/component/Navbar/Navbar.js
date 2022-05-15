@@ -11,7 +11,7 @@ const Navbar = () => {
 
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"> <img style={{ width: '130px', height: '50px' }} src={logo}></img></a>
+                    <a class="navbar-brand" href="#"> <img style={{ width: '100px', height: '40px' }} src={logo}></img></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

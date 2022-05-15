@@ -170,7 +170,6 @@
     .agent {
         background-color: #BEE2FB;
         padding: 16px;
-        /* margin: 11px; */
         border-radius: 30px;
         text-align: center;
         color: #5591BB;
@@ -260,6 +259,10 @@
 
 
 
+
+
+
+
 @media only screen and (min-width: 519px) and (max-width: 844px) {
     .offer-content h1 {
         font-size: 30px;
@@ -298,6 +301,4 @@
     .explore-btn button {
         margin-bottom: 50px;
     }
-
-
 }

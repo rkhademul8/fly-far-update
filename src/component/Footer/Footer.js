@@ -52,22 +52,31 @@ const Footer = () => {
                             <button class="btn btn-outline-success signin-btn " type="submit">SUBSCRIBE</button>
                         </div>
                     </div>
+
+
+
+
+
+                    {/* payment bannner */}
+                    <div className='container mt-5 mb-5'>
+
+                        <img src={payment} className="img-fluid" alt="..." />
+
+                    </div>
+
+                    {/* payment bannner end */}
+
+                    <div className=' footer-reserve'>
+                        <p>@All Right Reserved By Fly Far International & Developed By FLy Far Tech</p>
+                    </div>
+
+
                 </div>
 
 
 
-                {/* payment bannner */}
-                <div className='container mt-5 mb-5'>
 
-                    <img src={payment} className="img-fluid" alt="..." />
 
-                </div>
-
-                {/* payment bannner end */}
-
-                <div className=' footer-reserve'>
-                    <p>@All Right Reserved By Fly Far International & Developed By FLy Far Tech</p>
-                </div>
             </section>
         </div >
     );

@@ -209,6 +209,19 @@
 
 @media only screen and (max-width: 520px) {
 
+
+    .card-section {
+        margin-bottom: 100px;
+    }
+
+    .service-section {
+        margin-bottom: 100px !important;
+    }
+
+    .ceo-section {
+        margin: 100px 0px;
+    }
+
     .offer-content h1 {
         font-size: 22px;
     }

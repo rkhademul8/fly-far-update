@@ -57,6 +57,7 @@
     font-weight: 400;
     margin-bottom: 0px;
     font-family: 'Poppins';
+
 }
 
 
@@ -70,6 +71,12 @@
         padding: 25px 21px;
         padding-bottom: 10px;
     }
+
+    .footer-reserve p {
+        font-size: 14px;
+        padding: 0px 2px;
+    }
+
 }
 
 /* tab device media query */
@@ -86,6 +93,7 @@
         color: #4C4C50;
         font-weight: 400;
         font-size: 15px;
+        padding: 0px 4px;
     }
 
     .company-content {

@@ -21,14 +21,17 @@ const Navbar = () => {
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
                             </li>
 
                         </ul>
                         <form class="d-flex">
 
                             <button class="btn btn-outline-success me-2 register-btn " type="submit">Regester Now</button>
-                            <button class="btn btn-outline-success signin-btn" type="submit">Sign in</button>
+                            <button style={{ padding: '0px 30px' }} class="btn btn-outline-success signin-btn" type="submit">Sign in</button>
                         </form>
                     </div>
                 </div>

@@ -58,7 +58,7 @@ const Banner = () => {
                         <span className='round' style={{ color: '#003566;' }}>Round trip</span>
                     </div>
                     <div class="col p-0">
-                        <p>One Way </p>
+                        <p>Multi-City</p>
                     </div>
 
                 </div>

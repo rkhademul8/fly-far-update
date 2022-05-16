@@ -1,7 +1,7 @@
 import React from 'react';
 import banner from '../../image/banner.png'
 import './Banner.css'
-
+import { BsSearch } from "react-icons/bs";
 
 const bgbanner = {
     backgroundImage: `url(${banner})`,
@@ -98,7 +98,7 @@ const Banner = () => {
             <div className='text-center flight-btn'>
 
                 {/* <button disabled class=" btn btn-outline-success signin-btn rounded-pill" type="submit">Search Flight </button> */}
-                <a disabled className='search-btn'>Search Flight</a>
+                <a disabled className='search-btn'> <BsSearch /> Search Flight</a>
 
             </div>
 

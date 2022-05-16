@@ -43,7 +43,10 @@ const Home = () => {
 
             <section className='container card-section '>
                 <div className='text-center offer-content'>
+
                     <p>Our Service</p>
+
+
                     <h1 className='mb-5'>What We Are Offering?</h1>
                 </div>
 
@@ -99,10 +102,14 @@ const Home = () => {
 
             <div class="container mt-5 mb-5 service-section">
 
-                <div class="row d-flex  align-items-center">
+                <div class="row d-flex  align-items-center gx-5">
                     <div class="col-12 col-md-6 mb-5 internation-content">
 
-                        <span>Our Special Service</span>
+                        <div className='d-flex hr_tag'>
+                            <hr className='' ></hr>
+                            <span>  Our Special Service</span>
+                        </div>
+
                         <h1>Buy Air Ticket With <b>Lowest Price.</b> </h1>
                         <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 
@@ -167,7 +174,11 @@ const Home = () => {
                     </div>
 
                     <div class="col-12 col-md-6 internation-content">
-                        <span>Why choice us?</span>
+                        <div className='d-flex hr_tag'>
+                            <hr className='' ></hr>
+                            <span>Why choice us?</span>
+                        </div>
+
                         <h1 className='fly-h1'>Why Fly Far International?</h1>
                         <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 

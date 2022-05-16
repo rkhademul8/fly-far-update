@@ -69,6 +69,9 @@
 
 }
 
+
+
+
 .ceo-content h1 {
     color: #25262A;
     font-size: 34px;
@@ -104,6 +107,17 @@
     margin-bottom: 150px;
 
 }
+
+.hr_tag hr {
+    width: 35px;
+    height: 1px;
+    border: 1px solid black !important;
+    margin-top: 10px;
+    margin-right: 10px;
+    opacity: 1;
+
+}
+
 
 .service-section {
     margin-bottom: 150px !important;
@@ -199,6 +213,14 @@
         margin-bottom: 100px;
     }
 
+    .hr_tag {
+        justify-content: center;
+    }
+
+    .hr_tag hr {
+        margin-top: 32px;
+    }
+
     .ceo-section {
         margin: 100px 0px;
     }
@@ -212,6 +234,14 @@
 
     .card-section {
         margin-bottom: 100px;
+    }
+
+    .hr_tag {
+        justify-content: center;
+    }
+
+    .hr_tag hr {
+        margin-top: 31px;
     }
 
     .service-section {

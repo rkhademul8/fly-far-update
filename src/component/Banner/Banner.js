@@ -18,12 +18,12 @@ const bgbanner = {
 const Banner = () => {
 
     return (
-        <section className='container pe-0'>
+        <section className='container  '>
 
             <div style={bgbanner}>
 
 
-                <div class="container  banner-Content">
+                <div class="container  banner-Content ">
                     <div class="row">
                         <div class="col-lg-5 content-banner">
 

@@ -11,7 +11,7 @@ import payment from '../../image/payment.png'
 
 const Footer = () => {
     return (
-        <div className='footer-parent'>
+        <div className='footer-parent overflow-hidden'>
             <section className='footer-body'>
                 <div class="container">
                     <div class="row ">

@@ -7,7 +7,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div className='container'>
+        <div className='container overflow-hidden'>
 
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">

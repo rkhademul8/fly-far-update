@@ -20,6 +20,9 @@ import Carousel from '../Carousel/Carousel';
 
 const ceo_bg = {
     backgroundImage: `url(${ceoBg})`,
+    // backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
     backgroundPosition: 'center',
 
 
@@ -28,20 +31,21 @@ const ceo_bg = {
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
+
             <Navbar></Navbar>
+            
             <Banner></Banner>
+
             <Carousel></Carousel>
 
             {/* offering part start */}
 
-            <section className='container pe-0'>
+            <section className='container '>
                 <div className='text-center offer-content'>
                     <p>Our Service</p>
                     <h1 className='mb-5'>What We Are Offering?</h1>
                 </div>
-
-                {/* row-cols-1  row-cols-md-4 g-4 */}
 
                 <div class="row  ">
                     <div class=" col-12 col-md-6 col-lg-3 mb-3">

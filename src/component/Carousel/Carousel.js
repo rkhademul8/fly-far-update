@@ -96,7 +96,7 @@ const Carousel = () => {
 
 
   return (
-    <div className='carousel'>
+    <div className='carousel overflow-hidden'>
       <div className='container'>
         <div className='carousel-header'><span>Our Most Popular Airlinr Partners</span></div>
         <Slider {...settings}>

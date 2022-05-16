@@ -123,9 +123,13 @@
     margin-bottom: 150px !important;
 }
 
+
 .ceo-section {
-    margin: 140px 0px;
+    /* margin: 140px 0px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
 
 .agent_parent {
     margin-left: 22px;
@@ -221,8 +225,14 @@
         margin-top: 32px;
     }
 
-    .ceo-section {
+    /* .ceo-section {
         margin: 100px 0px;
+    } */
+
+    .ceo-section {
+        /* margin: 140px 0px; */
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
@@ -231,7 +241,11 @@
 
 @media only screen and (max-width: 520px) {
 
-
+    .ceo-section {
+        /* margin: 140px 0px; */
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
     .card-section {
         margin-bottom: 100px;
     }
@@ -248,9 +262,9 @@
         margin-bottom: 100px !important;
     }
 
-    .ceo-section {
+    /* .ceo-section {
         margin: 100px 0px;
-    }
+    } */
 
     .offer-content h1 {
         font-size: 22px;

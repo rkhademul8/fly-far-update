@@ -45,7 +45,7 @@ const Footer = () => {
                             <img src={iata} />
                         </div>
 
-                        <div class="col-6 col-md-6 col-lg-3 ">
+                        <div class="col-6 col-md-6 col-lg-3 footer-left">
                             <h5 className='message'>Send us massage via Email</h5>
 
                             <input class="form-control"></input> <br></br>

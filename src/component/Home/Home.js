@@ -100,7 +100,7 @@ const Home = () => {
             {/* air ticket buy start */}
 
 
-            <div class="container mt-5 mb-5 service-section">
+            <div class="container mt-5 mb-5 service-section overflow-hidden">
 
                 <div class="row d-flex  align-items-center gx-5">
                     <div class="col-12 col-md-6 mb-5 internation-content">
@@ -108,7 +108,8 @@ const Home = () => {
                         <div className='d-flex hr_tag'>
                             <hr className='' ></hr>
                             <span>  Our Special Service</span>
-                        </div>
+                        </div> 
+                       
 
                         <h1>Buy Air Ticket With <b>Lowest Price.</b> </h1>
                         <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>

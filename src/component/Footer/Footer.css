@@ -1,6 +1,6 @@
 .footer-parent {
     background-color: #E5F0FF;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .footer-body {
@@ -60,6 +60,10 @@
 
 }
 
+
+.footer-left{
+    padding-left: 23px;
+}
 
 /* media query */
 

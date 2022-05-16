@@ -10,6 +10,7 @@ const bgbanner = {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
+    borderRadius: "10px",
 
 }
 
@@ -76,11 +77,11 @@ const Banner = () => {
                         </div>
                         <div class="col-12 col-md-6 col-lg-2 ">
                             <label>Departure Date</label><br />
-                            <input disabled type="date" placeholder='Departure Date' />
+                            <input disabled type="text" placeholder='Departure Date' />
                         </div>
                         <div class="col-12 col-md-6 col-lg-2 ">
                             <label>Returning Date</label> <br />
-                            <input disabled type="date" placeholder='Departure Date' />
+                            <input disabled type="text" placeholder='Returning Date' />
                         </div>
                         <div class="col-12 col-md-6 col-lg-2 p-0 passenger-input">
                             <label>Passenger & Class</label>
@@ -98,7 +99,7 @@ const Banner = () => {
 
                 {/* <button disabled class=" btn btn-outline-success signin-btn rounded-pill" type="submit">Search Flight </button> */}
                 <a disabled className='search-btn'>Search Flight</a>
-                
+
             </div>
 
 

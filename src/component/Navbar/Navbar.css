@@ -1,19 +1,35 @@
-.nav_cus{
+.nav_cus {
     margin-left: 80px;
 }
 
+.nav_cus li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+}
 
 .register-btn {
     color: black;
     border: 1px solid black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .signin-btn {
     background: #003566;
     color: #fff;
     border: 1px solid #003566;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
 
-   background-image: url();
+.nav-margin-bottom {
+    margin-bottom: 30px;
 }
 
 
@@ -25,7 +41,7 @@
 
 
 @media only screen and (max-width: 991px) {
-    .nav_cus{
+    .nav_cus {
         margin-left: 0px;
     }
-  }
+}

@@ -5,12 +5,17 @@
 .content-banner h1 {
     color: #fff;
     font-size: 55px;
+    font-family: 'Poppins';
+    font-weight: 700;
+
 }
 
 .content-banner p {
     color: #FFFFFF;
     font-size: 15px;
-    text-align: justify
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
 
@@ -46,6 +51,7 @@
     font-weight: 400;
     margin-bottom: 0px;
     text-align: center;
+    font-family: 'Poppins';
 }
 
 .contact-conatent span {
@@ -54,6 +60,7 @@
     padding: 5px 30px;
     border-radius: 20px;
     font-weight: 500;
+    font-family: 'Poppins';
 
 }
 
@@ -68,6 +75,7 @@
     font-weight: 600;
     width: 100%;
     text-align: left;
+    font-family: 'Poppins';
 }
 
 .input-field input {
@@ -85,11 +93,11 @@
 
 
 .flight-btn {
-    margin-top: -25px;
+    margin-top: -14px;
 
 }
 
-.search-btn{
+.search-btn {
     text-decoration: none;
     background: #003566;
     color: #fff;
@@ -130,16 +138,16 @@
     }
 
     .contact-conatent p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .cus-col {
-        margin-top: -5px;
+        margin-top: -2px;
     }
 
     .contact-conatent span {
         padding: 5px 6px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
 
@@ -158,16 +166,19 @@
         margin-bottom: 20px;
 
     }
-    
+
     .signin-btn {
         background: #003566;
         color: #fff;
         border: 1px solid #003566;
-        background-image: url();
+        /* background-image: url(); */
         font-size: 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
     }
 
-    .passenger-input{
+    .passenger-input {
         padding: 14px !important;
     }
 
@@ -205,12 +216,14 @@
 
 
 @media only screen and (min-width: 521px) and (max-width: 845px) {
-   .banner-Content {
+    .banner-Content {
         padding: 30px 25px;
     }
+
     .content-banner h1 {
         font-size: 30px;
     }
+
     .contact {
         width: 100%;
         margin-top: 100px;
@@ -219,9 +232,9 @@
     .contact-conatent {
         width: 100%;
 
-    }   
+    }
 
-     .contact-conatent p {
+    .contact-conatent p {
         font-size: 20px;
     }
 
@@ -234,27 +247,27 @@
         font-size: 20px;
     }
 
-    .passenger-input{
+    .passenger-input {
         padding: 14px !important;
     }
 }
 
 
 @media only screen and (min-width: 846px) and (max-width: 1199px) {
-    
+
     .content-banner h1 {
-      
+
         font-size: 40px;
-       
-    }
-    
-    
-    .contact-conatent {
-     
-        width: 100%;  
+
     }
 
-    .passenger-input{
+
+    .contact-conatent {
+
+        width: 100%;
+    }
+
+    .passenger-input {
         padding: 14px !important;
     }
 }

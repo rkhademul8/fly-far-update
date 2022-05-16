@@ -17,7 +17,7 @@ const Footer = () => {
                     <div class="row ">
                         <div class="col-12 col-md-6 col-lg-3 footer-logo">
 
-                            <div className='footer-logo'><img style={{ width: '100px', height: '40px'}} src={logo} /></div>
+                            <div className='footer-logo'><img style={{ width: '100px', height: '40px' }} src={logo} /></div>
 
 
 

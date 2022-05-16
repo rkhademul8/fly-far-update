@@ -1,15 +1,16 @@
-
-
 .offer-content p {
     color: #003566;
     font-weight: 700;
     font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
 .offer-content h1 {
     color: #25262A;
     font-weight: 700;
     font-size: 45px;
+    font-family: 'Poppins';
 
 }
 
@@ -17,31 +18,44 @@
     font-size: 24px;
     color: #25262A;
     font-weight: 600;
+    font-family: 'Poppins'
 }
 
 .offering-content p {
     color: #4C4C50;
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Poppins';
 }
 
 .internation-content span {
     color: #003566;
     font-size: 15px;
-    font-weight: 500;
     line-height: 22.5px;
+    font-family: 'Poppins';
+    font-weight: 500;
 
 }
 
 .internation-content h1 {
     color: #25262A;
     font-size: 45px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 15px 0px;
+}
+
+.fly-h1 {
+    font-weight: 700 !important;
 }
 
 .internation-content p {
+    font-family: 'Poppins';
     color: #4C4C50;
     font-size: 16px;
     font-weight: 400;
+    padding: 12px 0px;
+    text-align: justify;
 
 }
 
@@ -58,13 +72,16 @@
 .ceo-content h1 {
     color: #25262A;
     font-size: 34px;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: 'Poppins';
 }
 
 .ceo-content p {
     color: #4C4C50;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 19px;
+    font-family: 'Poppins';
+    text-align: justify
 }
 
 
@@ -80,6 +97,20 @@
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+
+.card-section {
+    margin-bottom: 150px;
+
+}
+
+.service-section {
+    margin-bottom: 150px !important;
+}
+
+.ceo-section {
+    margin: 140px 0px;
 }
 
 .agent_parent {
@@ -146,12 +177,21 @@
 /* mobile device */
 
 @media only screen and (max-width: 320px) {
-    .agent_parent{
+    .agent_parent {
         padding: 0;
     }
+
     .agent {
         margin: 23px 5px !important;
         padding: 20px 0px !important;
+    }
+
+    .card-section {
+        margin-bottom: 100px;
+    }
+
+    .ceo-section {
+        margin: 100px 0px;
     }
 }
 
@@ -316,28 +356,32 @@
 }
 
 @media only screen and (max-width:1024px) {
-.agent {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 35px 5px;
-    padding: 36px 0px;
-}
+    .agent {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 35px 5px;
+        padding: 36px 0px;
+    }
 
-.int_customers {
-    margin: 0px;
-}
-.int_customers h3 {
-    font-size: 25px;
-}
-.int_customers span {
-    font-size: 20px;
-}
-.agent h3 {
-    font-size: 25px;
-}
-.agent span {
-    font-size: 20px;
-}
+    .int_customers {
+        margin: 0px;
+    }
+
+    .int_customers h3 {
+        font-size: 25px;
+    }
+
+    .int_customers span {
+        font-size: 20px;
+    }
+
+    .agent h3 {
+        font-size: 25px;
+    }
+
+    .agent span {
+        font-size: 20px;
+    }
 }
 
 
@@ -350,18 +394,21 @@
     .agent h3 {
         font-size: 15px;
     }
+
     .agent span {
         font-size: 14px;
     }
 
     .int_customers {
-     
+
         padding: 39px;
         margin: 0px;
     }
+
     .int_customers h3 {
         font-size: 20px;
     }
+
     .int_customers span {
         font-size: 15px;
     }

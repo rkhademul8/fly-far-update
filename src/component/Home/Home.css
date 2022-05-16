@@ -177,14 +177,23 @@
 /* mobile device */
 
 @media only screen and (max-width: 320px) {
-    .agent_parent {
+
+
+    /* .agent_parent {
         padding: 0;
     }
 
     .agent {
-        margin: 23px 5px !important;
-        padding: 20px 0px !important;
+        margin: 23px 12px !important;
+        padding: 10px 0px !important;
     }
+
+    .int_customers {
+        padding: 10px !important;
+        margin: 0px 2px !important;
+    } */
+
+
 
     .card-section {
         margin-bottom: 100px;
@@ -194,6 +203,9 @@
         margin: 100px 0px;
     }
 }
+
+
+
 
 @media only screen and (max-width: 520px) {
 
@@ -220,14 +232,10 @@
     }
 
     .agent {
-        background-color: #BEE2FB;
-        padding: 16px;
-        border-radius: 30px;
-        text-align: center;
-        color: #5591BB;
-        font-weight: 700;
-        margin: 33px 0px;
+        margin: 20px 0px !important;
+        padding: 10px 0px !important;
     }
+
 
     .agent h3 {
         font-size: 20px;
@@ -240,8 +248,8 @@
 
     .int_customers {
         background-color: #E6F9F1;
-        padding: 53px;
-        margin: 0px;
+        padding: 10px !important;
+        margin: 0px 0px !important;
         border-radius: 30px;
         text-align: center;
         color: #4CD4AB;
@@ -387,16 +395,16 @@
 
 @media only screen and (max-width:768px) {
     .agent {
-        margin: 30px 5px;
-        padding: 8px 0px;
+        margin: 20px 23px;
+        padding: 20px 0px;
     }
 
     .agent h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .agent span {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .int_customers {

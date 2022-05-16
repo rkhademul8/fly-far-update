@@ -134,13 +134,13 @@ const Home = () => {
                     <div class="col-12 col-md-6  mb-5">
 
                         <div className='row'>
-                            <div class="col-5  col-lg-5 agent_parent">
+                            <div class="col-12 col-md-6  col-lg-5 agent_parent">
                                 <div className='agent'>
                                     <h3>120+ Agent</h3>
                                     <span className='cus_P'>Permanent</span>
                                 </div>
                             </div>
-                            <div class="col-7  col-lg-6">
+                            <div class="col-12 col-md-6  col-lg-6">
                                 <div className='int_customers'>
                                     <h3> 10,250+</h3>
                                     <span className='cus_P'>Customers</span>
@@ -149,14 +149,14 @@ const Home = () => {
                         </div>
                         <div className='row row-round'>
 
-                            <div class="col-7  col-lg-6">
+                            <div class="col-12 col-md-6  col-lg-6">
                                 <div className='int_customers direct_contact'>
                                     <h3> 10,250+</h3>
                                     <span className='cus_P'>Customers</span>
                                 </div>
                             </div>
 
-                            <div class="col-5 col-lg-5 agent_parent">
+                            <div class="col-12 col-md-6 col-lg-5 agent_parent">
                                 <div className='agent agent_last'>
                                     <h3>120+ Agent</h3>
                                     <span className='cus_P'>Permanent</span>

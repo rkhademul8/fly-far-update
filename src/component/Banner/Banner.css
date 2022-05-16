@@ -253,6 +253,20 @@
 }
 
 
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+
+    .input-field label {
+        font-size: 11px;
+    }
+
+    .passenger-input {
+        padding: 0px !important;
+    }
+}
+
+
+
 @media only screen and (min-width: 846px) and (max-width: 1199px) {
 
     .content-banner h1 {
@@ -261,13 +275,12 @@
 
     }
 
-
     .contact-conatent {
 
         width: 100%;
     }
 
-    .passenger-input {
+    /* .passenger-input {
         padding: 14px !important;
-    }
+    } */
 }

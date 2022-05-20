@@ -190,28 +190,11 @@
 }
 
 
-/* media query */
+/* --------------------------- media query start ---------------------------*/
+
 
 /* mobile device */
-
 @media only screen and (max-width: 320px) {
-
-
-    /* .agent_parent {
-        padding: 0;
-    }
-
-    .agent {
-        margin: 23px 12px !important;
-        padding: 10px 0px !important;
-    }
-
-    .int_customers {
-        padding: 10px !important;
-        margin: 0px 2px !important;
-    } */
-
-
 
     .card-section {
         margin-bottom: 100px;
@@ -225,12 +208,7 @@
         margin-top: 32px;
     }
 
-    /* .ceo-section {
-        margin: 100px 0px;
-    } */
-
     .ceo-section {
-        /* margin: 140px 0px; */
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -238,11 +216,11 @@
 
 
 
+/* ------------ medium and large mobile device  ----------------------*/
 
 @media only screen and (max-width: 520px) {
 
     .ceo-section {
-        /* margin: 140px 0px; */
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -261,10 +239,6 @@
     .service-section {
         margin-bottom: 100px !important;
     }
-
-    /* .ceo-section {
-        margin: 100px 0px;
-    } */
 
     .offer-content h1 {
         font-size: 22px;
@@ -296,6 +270,7 @@
 
     .agent h3 {
         font-size: 20px;
+        margin-bottom: 0px;
     }
 
     .agent span {
@@ -315,6 +290,7 @@
 
     .int_customers h3 {
         font-size: 20px;
+        margin-bottom: 0px;
 
     }
 
@@ -372,11 +348,38 @@
 
 
 
-/* tab device media query */
+/*------------------------- tab device media query -------------------------------*/
 
 
 
+@media only screen and (max-width:768px) {
+    .agent {
+        margin: 20px 23px;
+        padding: 20px 0px;
+    }
 
+    .agent h3 {
+        font-size: 13px;
+    }
+
+    .agent span {
+        font-size: 12px;
+    }
+
+    .int_customers {
+
+        padding: 39px;
+        margin: 0px;
+    }
+
+    .int_customers h3 {
+        font-size: 20px;
+    }
+
+    .int_customers span {
+        font-size: 15px;
+    }
+}
 
 
 
@@ -420,16 +423,21 @@
     }
 }
 
+
+/*-------------------------  Laptop  -----------------------------*/
+
+
 @media only screen and (max-width:1024px) {
     .agent {
         font-size: 20px;
         font-weight: 700;
-        margin: 35px 5px;
+        margin: 25px 5px;
         padding: 36px 0px;
     }
 
     .int_customers {
         margin: 0px;
+        padding: 56px;
     }
 
     .int_customers h3 {
@@ -450,31 +458,3 @@
 }
 
 
-@media only screen and (max-width:768px) {
-    .agent {
-        margin: 20px 23px;
-        padding: 20px 0px;
-    }
-
-    .agent h3 {
-        font-size: 13px;
-    }
-
-    .agent span {
-        font-size: 12px;
-    }
-
-    .int_customers {
-
-        padding: 39px;
-        margin: 0px;
-    }
-
-    .int_customers h3 {
-        font-size: 20px;
-    }
-
-    .int_customers span {
-        font-size: 15px;
-    }
-}

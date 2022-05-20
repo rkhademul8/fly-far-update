@@ -39,14 +39,15 @@ const Home = () => {
 
             <Carousel></Carousel>
 
-            {/* offering part start */}
+
+
+
+
+            {/*---------- offering part start ----------------*/}
 
             <section className='container card-section '>
                 <div className='text-center offer-content'>
-
                     <p>Our Service</p>
-
-
                     <h1 className='mb-5'>What We Are Offering?</h1>
                 </div>
 
@@ -90,14 +91,13 @@ const Home = () => {
                 </div>
 
             </section>
-
-            {/* offering part end */}
-
+            {/*-------------- offering part end --------------*/}
 
 
 
 
-            {/* air ticket buy start */}
+
+            {/*--------------- air ticket buy start ---------------*/}
 
 
             <div class="container mt-5 mb-5 service-section overflow-hidden">
@@ -128,17 +128,15 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* air ticket buy end */}
+            {/*------------- air ticket buy end -----------------*/}
 
 
 
 
-            {/*  far international start */}
+            {/*---------------  far international start ------------------*/}
 
             <div class="container">
-
                 <div class="row d-flex  align-items-center">
-
                     <div class="col-12 col-md-6  mb-5">
 
                         <div className='row'>
@@ -189,11 +187,11 @@ const Home = () => {
                 </div>
             </div>
 
-            {/*  far international end */}
+            {/*-----------------  far international end --------------------*/}
 
 
 
-            {/* ceo part start */}
+            {/*----------------- ceo part start --------------------*/}
 
             <section className='ceo-section'>
 
@@ -218,7 +216,7 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* ceo part end */}
+            {/*----------------- ceo part end -----------------------*/}
 
 
 

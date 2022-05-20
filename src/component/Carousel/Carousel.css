@@ -40,6 +40,11 @@
 
 /* media query fot Carousel */
 
+
+
+
+/*--------------------- small mobile  -----------------------*/
+
 @media only screen and (max-width: 320px) {
     .carousel img {
         width: 132px;
@@ -51,6 +56,7 @@
     }
 }
 
+/*--------------------- Medium mobile  -----------------------*/
 
 @media only screen and (max-width: 375px) {
     .carousel img {
@@ -63,6 +69,10 @@
     }
 }
 
+
+
+/*--------------------- Large mobile  -----------------------*/
+
 @media only screen and (max-width: 425px) {
     .carousel img {
         width: 121px;
@@ -70,12 +80,19 @@
     }
 }
 
+
+/*--------------------- Lab mobile  -----------------------*/
+
 @media only screen and (max-width: 768px) {
     .carousel img {
         width: 159px;
         height: 100px !important;
     }
 }
+
+
+
+/*--------------------- Laptop mobile  -----------------------*/
 
 @media only screen and (max-width: 1024px) {
     .carousel img {

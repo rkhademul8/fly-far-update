@@ -19,8 +19,6 @@ const Footer = () => {
 
                             <div className='footer-logo'><img style={{ width: '100px', height: '40px' }} src={logo} /></div>
 
-
-
                             <p className='py-3'>
                                 Cheap International Flights. Book Tickets from 600+ Airlines on CheapOair®. Airlines, Dates and Prices in One Go. Search, Compare & Book Now on CheapOair®. Price Match Promise.
                             </p>

@@ -99,6 +99,7 @@ const Carousel = () => {
     <div className='carousel overflow-hidden'>
       <div className='container'>
         <div className='carousel-header'><span>Our Most Popular Airlinr Partners</span></div>
+       
         <Slider {...settings}>
 
           <div >
@@ -124,11 +125,8 @@ const Carousel = () => {
           <div >
             <img className='border-0' src={c6} class="img-thumbnail" alt="..." />
           </div>
-
-
-
-
         </Slider>
+
       </div>
     </div>
   );
